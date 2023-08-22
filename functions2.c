@@ -1,6 +1,10 @@
 #include "main.h"
 
+<<<<<<< HEAD
 /* PRINT POINTER */
+=======
+/****************** PRINT POINTER ******************/
+>>>>>>> f4192cd0532991fe5cda8ad8973061f3dc9596f0
 /**
  * print_pointer - Prints the value of a pointer variable
  * @types: List a of arguments
@@ -52,7 +56,11 @@ int print_pointer(va_list types, char buffer[],
 		width, flags, padd, extra_c, padd_start));
 }
 
+<<<<<<< HEAD
 /* PRINT NON PRINTABLE */
+=======
+/************************* PRINT NON PRINTABLE *************************/
+>>>>>>> f4192cd0532991fe5cda8ad8973061f3dc9596f0
 /**
  * print_non_printable - Prints ascii codes in hexa of non printable chars
  * @types: Lista of arguments
@@ -92,7 +100,11 @@ int print_non_printable(va_list types, char buffer[],
 	return (write(1, buffer, i + offset));
 }
 
+<<<<<<< HEAD
 /* PRINT REVERSE */
+=======
+/************************* PRINT REVERSE *************************/
+>>>>>>> f4192cd0532991fe5cda8ad8973061f3dc9596f0
 /**
  * print_reverse - Prints reverse string.
  * @types: Lista of arguments
@@ -135,7 +147,11 @@ int print_reverse(va_list types, char buffer[],
 	}
 	return (count);
 }
+<<<<<<< HEAD
 /* PRINT A STRING IN ROT13 */
+=======
+/************************* PRINT A STRING IN ROT13 *************************/
+>>>>>>> f4192cd0532991fe5cda8ad8973061f3dc9596f0
 /**
  * print_rot13string - Print a string in rot13.
  * @types: Lista of arguments
